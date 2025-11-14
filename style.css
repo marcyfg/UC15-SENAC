@@ -45,3 +45,21 @@ body {
   ul li {
     margin: 5px 0;
   }
+
+  img {
+    display: block;
+    margin: 25px auto 32px;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 200ms ease, box-shadow 200ms ease, filter 200ms ease;
+    will-change: tranform;
+}
+  
+
+  img.is-expanded {
+    transform: scale(1.06);
+    box-shadow: 0 16px 44px rgba(240, 67, 140);
+  }
+  
