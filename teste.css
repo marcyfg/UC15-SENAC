@@ -1,22 +1,21 @@
-body{
-background-color: 	#f0438c;
-}
-img {
+body {
+    background-color: #f0438c;
+  }
+  
+  img {
     display: block;
-    margin:40px auto;
-    width: 600px;  
+    margin: 40px auto;
+    width: 600px;
     height: 600px;
     object-fit: cover;
     border-radius: 12px;
     transition: transform 200ms ease, box-shadow 200ms ease, filter 200ms ease;
     will-change: transform;
-}
-
-img.is-expanded {
+    cursor: pointer;
+  }
+  
+  img.is-expanded {
     transform: scale(1.06);
-    box-shadow: 0 16px 44px rgba(249,184,210);
-
-it.is-expanded {        {
-        transform: scale(1.06);
-        box-shadow: 0 16px 44px rgba(249,184,210);
-} 
+    box-shadow: 0 16px 44px rgba(249, 184, 210, 0.8);
+  }
+  
